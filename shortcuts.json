@@ -1,0 +1,94 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+ctrl+down",
+        "command": "findWordAtCursor.next",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+ctrl+up",
+        "command": "findWordAtCursor.previous",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+m",
+        "command": "workbench.action.maximizeEditor"
+    },
+    {
+        "key": "alt+cmd+n",
+        "command": "workbench.action.evenEditorWidths"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "shift+enter",
+        "command": "extension.aceJump",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+o",
+        "command": "outline.focus"
+    },
+    {
+        "key": "PageDown",
+        "command": "scrollkey.down1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "PageUp",
+        "command": "scrollkey.up1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+cmd+t",
+        "command": "go.test.cursor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "scrollkey.down1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectNextSuggestion",
+        "when": "textInputFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "selectPrevSuggestion",
+        "when": "textInputFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "editor.gotoNextFold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "editor.gotoPreviousFold",
+        "when": "editorTextFocus"
+    }
+]
